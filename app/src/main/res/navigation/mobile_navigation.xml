@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/mobile_navigation"
+    app:startDestination="@+id/nav_home">
+
+    <fragment
+        android:id="@+id/nav_home"
+        android:name="com.example.v2.ui.home.HomeFragment"
+        android:label="@string/menu_home"
+        tools:layout="@layout/fragment_home" >
+        <action
+            android:id="@+id/action_nav_home_to_nav_profile"
+            app:destination="@id/nav_profile"
+            app:popUpTo="@id/nav_home" />
+        <action
+            android:id="@+id/action_nav_home_to_nav_checklist"
+            app:destination="@id/nav_checklist"
+            app:popUpTo="@id/nav_home" />
+        <action
+            android:id="@+id/action_nav_home_to_nav_blog"
+            app:destination="@id/nav_blog"
+            app:popUpTo="@id/nav_home" />
+    </fragment>
+
+    <fragment
+        android:id="@+id/nav_gallery"
+        android:name="com.example.v2.ui.gallery.GalleryFragment"
+        android:label="@string/menu_gallery"
+        tools:layout="@layout/fragment_gallery" />
+
+    <fragment
+        android:id="@+id/nav_slideshow"
+        android:name="com.example.v2.ui.slideshow.SlideshowFragment"
+        android:label="@string/menu_slideshow"
+        tools:layout="@layout/fragment_slideshow" />
+
+    <fragment
+        android:id="@+id/nav_profile"
+        android:name="com.example.v2.ui.profile.ProfileFragment"
+        android:label="@string/menu_profile"
+        tools:layout="@layout/fragment_profile" >
+    </fragment>
+
+    <fragment
+        android:id="@+id/nav_fav"
+        android:name="com.example.v2.ui.fav.FavFragment"
+        android:label="@string/menu_favourite"
+        tools:layout="@layout/fragment_fav" />
+
+    <fragment
+        android:id="@+id/nav_discover"
+        android:name="com.example.v2.ui.discover.DiscoverFragment"
+        android:label="@string/menu_discover"
+        tools:layout="@layout/fragment_discover" />
+
+    <fragment
+        android:id="@+id/nav_meditation"
+        android:name="com.example.v2.ui.meditation.MeditationFragment"
+        android:label="@string/menu_meditation"
+        tools:layout="@layout/fragment_meditation" />
+
+    <fragment
+        android:id="@+id/nav_mandala"
+        android:name="com.example.v2.ui.mandala.MandalaFragment"
+        android:label="@string/menu_mandala"
+        tools:layout="@layout/fragment_mandala" />
+
+    <fragment
+        android:id="@+id/nav_podcast"
+        android:name="com.example.v2.ui.podcast.PodcastFragment"
+        android:label="@string/menu_podcast"
+        tools:layout="@layout/fragment_podcast" />
+
+    <fragment
+        android:id="@+id/nav_blog"
+        android:name="com.example.v2.ui.blog.BlogFragment"
+        android:label="@string/menu_blog"
+        tools:layout="@layout/fragment_blog"/>
+
+    <fragment
+        android:id="@+id/nav_checklist"
+        android:name="com.example.v2.ui.checklist.ChecklistFragment"
+        android:label="@string/menu_checklist"
+        tools:layout="@layout/fragment_checklist"/>
+
+    <fragment
+        android:id="@+id/nav_checklist_result"
+        android:name="com.example.v2.ui.checklist.CheckListResultFragment"
+        android:label="@string/menu_checklist_result"
+        tools:layout="@layout/fragment_checklist_result"/>
+
+    <activity
+        android:id="@+id/nav_mandala_draw_page"
+        android:name="com.example.v2.ui.mandala.MandalaDrawPage"
+        android:label="Mandala Draw Page"
+        tools:layout="@layout/activity_mandala_draw_page"/>
+
+</navigation>

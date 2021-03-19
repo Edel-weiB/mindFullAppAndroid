@@ -1,0 +1,44 @@
+<resources>
+    <string name="app_name">v2</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="nav_header_title">Android Studio</string>
+    <string name="nav_header_subtitle">android.studio@android.com</string>
+    <string name="nav_header_desc">Navigation header</string>
+    <string name="action_settings">Settings</string>
+
+    <string name="menu_home">Home</string>
+    <string name="menu_gallery">Gallery</string>
+    <string name="menu_slideshow">Slideshow</string>
+    <string name="menu_profile">Profile</string>
+    <string name="menu_favourite">Favourite</string>
+    <string name="menu_discover">Discover</string>
+    <string name="menu_meditation">Meditation</string>
+    <string name="menu_mandala">Mandala</string>
+    <string name="menu_podcast">Podcast</string>
+    <string name="menu_checklist">Checklist</string>
+    <string name="menu_blog">Blog</string>
+    <string name="menu_checklist_result">Checklist Result</string>
+
+    <string name="title_home">Home</string>
+    <string name="title_dashboard">Dashboard</string>
+    <string name="title_notifications">Notifications</string>
+    <string name="title_profile">Profile</string>
+    <string name="title_favourite">Favourite</string>
+    <string name="title_discover">Discover</string>
+
+    <!--    <string name="question_1">I have been feeling cheerful</string>-->
+    <!--    <string name="question_2">I feel very lonely even if I am with my friends</string>-->
+    <!--    <string name="question_3">I enjoy learning new things</string>-->
+    <!--    <string name="question_4">When I work or at school, I feel emotionally drained</string>-->
+    <!--    <string name="question_5">I can tolerate the pressure of my work very well</string>-->
+    <!--    <string name="question_6">Generally I feel very confident about myself</string>-->
+    <!--    <string name="question_7">I feel that I cannot handle many things at one time</string>-->
+
+    <!-- Checklist -->
+    <string name="button_back">Previous</string>
+    <string name="button_next">Next</string>
+
+    <string name="checklist_negative">Disagree</string>
+    <string name="checklist_positive">Agree</string>
+</resources>
