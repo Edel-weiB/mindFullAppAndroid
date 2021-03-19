@@ -8,6 +8,7 @@ import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
 import android.widget.Button;
+import android.widget.ImageView;
 import android.widget.LinearLayout;
 import android.widget.TextView;
 
@@ -38,10 +39,10 @@ public class PodcastFragment extends Fragment implements View.OnClickListener {
         View root = inflater.inflate(R.layout.fragment_podcast, container, false);
 
         Context context = root.getContext();
-
-
         music_title = root.findViewById(R.id.music_title);
 
+        // Image
+        ImageGallery imageGallery = new ImageGallery((ImageView) root.findViewById(R.id.imageGallery), context);
 
         // Recycler View
         recyclerView = root.findViewById(R.id.recyclerView);
